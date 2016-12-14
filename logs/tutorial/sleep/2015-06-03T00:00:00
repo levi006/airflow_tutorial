@@ -1,0 +1,14 @@
+[2016-12-09 14:08:08,487] {models.py:154} INFO - Filling up the DagBag from /Users/levi/projects/airflow/dags/example_dags/tutorial.py
+[2016-12-09 14:08:09,265] {models.py:154} INFO - Filling up the DagBag from /Users/levi/projects/airflow/dags/example_dags/tutorial.py
+[2016-12-09 14:08:09,352] {models.py:1196} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2016-12-09 14:08:09,359] {models.py:1219} INFO - Executing <Task(BashOperator): sleep> on 2015-06-03 00:00:00
+[2016-12-09 14:08:09,370] {bash_operator.py:55} INFO - tmp dir root location: 
+/var/folders/yq/d08q0w590s13ttmm25nycmv80000gn/T
+[2016-12-09 14:08:09,371] {bash_operator.py:64} INFO - Temporary script location :/var/folders/yq/d08q0w590s13ttmm25nycmv80000gn/T/airflowtmp_8aM7r//var/folders/yq/d08q0w590s13ttmm25nycmv80000gn/T/airflowtmp_8aM7r/sleepK29tmL
+[2016-12-09 14:08:09,371] {bash_operator.py:65} INFO - Running command: sleep 5
+[2016-12-09 14:08:09,375] {bash_operator.py:73} INFO - Output:
+[2016-12-09 14:08:14,385] {bash_operator.py:80} INFO - Command exited with return code 0

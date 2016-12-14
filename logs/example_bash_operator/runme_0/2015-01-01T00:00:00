@@ -1,0 +1,18 @@
+[2016-12-09 14:25:26,881] {models.py:154} INFO - Filling up the DagBag from /Users/levi/projects/airflow/dags
+[2016-12-09 14:25:26,949] {base_executor.py:36} INFO - Adding to queue: airflow run example_bash_operator runme_0 2015-01-01T00:00:00 --local -sd DAGS_FOLDER/example_dags/example_bash_operator.py 
+[2016-12-09 14:25:26,957] {sequential_executor.py:26} INFO - Executing command: airflow run example_bash_operator runme_0 2015-01-01T00:00:00 --local -sd DAGS_FOLDER/example_dags/example_bash_operator.py 
+[2016-12-09 14:25:27,633] {models.py:154} INFO - Filling up the DagBag from /Users/levi/projects/airflow/dags/example_dags/example_bash_operator.py
+[2016-12-09 14:25:28,388] {models.py:154} INFO - Filling up the DagBag from /Users/levi/projects/airflow/dags/example_dags/example_bash_operator.py
+[2016-12-09 14:25:28,468] {models.py:1196} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 1
+--------------------------------------------------------------------------------
+
+[2016-12-09 14:25:28,476] {models.py:1219} INFO - Executing <Task(BashOperator): runme_0> on 2015-01-01 00:00:00
+[2016-12-09 14:25:28,484] {bash_operator.py:55} INFO - tmp dir root location: 
+/var/folders/yq/d08q0w590s13ttmm25nycmv80000gn/T
+[2016-12-09 14:25:28,485] {bash_operator.py:64} INFO - Temporary script location :/var/folders/yq/d08q0w590s13ttmm25nycmv80000gn/T/airflowtmppgJvTu//var/folders/yq/d08q0w590s13ttmm25nycmv80000gn/T/airflowtmppgJvTu/runme_0isUgJH
+[2016-12-09 14:25:28,485] {bash_operator.py:65} INFO - Running command: echo "example_bash_operator__runme_0__20150101" && sleep 1
+[2016-12-09 14:25:28,490] {bash_operator.py:73} INFO - Output:
+[2016-12-09 14:25:28,492] {bash_operator.py:77} INFO - example_bash_operator__runme_0__20150101
+[2016-12-09 14:25:29,497] {bash_operator.py:80} INFO - Command exited with return code 0
